@@ -1,5 +1,5 @@
 {
- "version": 3,
+ "version": 4,
  "presets": [
   "bbc-ws",
   "fip",
@@ -24,7 +24,8 @@
    "tags": [
     "news",
     "talk"
-   ]
+   ],
+   "language": "english"
   },
   {
    "id": "rte1",
@@ -41,7 +42,8 @@
    "tags": [
     "news",
     "talk"
-   ]
+   ],
+   "language": "english"
   },
   {
    "id": "rfi",
@@ -57,7 +59,8 @@
    "liner": "Radio France Internationale, on shortwave since 1931, when it began as the Poste Colonial.",
    "tags": [
     "news"
-   ]
+   ],
+   "language": "french"
   },
   {
    "id": "dw",
@@ -73,7 +76,8 @@
    "liner": "Deutsche Welle, Germany's international broadcaster, founded in 1953.",
    "tags": [
     "news"
-   ]
+   ],
+   "language": "english"
   },
   {
    "id": "nrk",
@@ -89,7 +93,8 @@
    "liner": "Norway's public broadcaster. NRK has been on air since 1933.",
    "tags": [
     "talk"
-   ]
+   ],
+   "language": "norwegian"
   },
   {
    "id": "rai3",
@@ -105,7 +110,8 @@
    "liner": "Italy's cultural channel: concerts, opera and talk, on air since 1950.",
    "tags": [
     "classical"
-   ]
+   ],
+   "language": "italian"
   },
   {
    "id": "soma-secret-agent",
@@ -121,7 +127,8 @@
    "liner": "Listener-supported internet radio from San Francisco since 2000.",
    "tags": [
     "lounge"
-   ]
+   ],
+   "language": "english"
   },
   {
    "id": "wnyc",
@@ -138,7 +145,8 @@
    "tags": [
     "news",
     "talk"
-   ]
+   ],
+   "language": "english"
   },
   {
    "id": "kexp",
@@ -154,7 +162,8 @@
    "liner": "Listener-supported, Seattle, on air since 1972.",
    "tags": [
     "indie"
-   ]
+   ],
+   "language": "english"
   },
   {
    "id": "wfmu",
@@ -170,7 +179,8 @@
    "liner": "Freeform radio, listener-supported, on air since 1958.",
    "tags": [
     "freeform"
-   ]
+   ],
+   "language": "english"
   },
   {
    "id": "nts1",
@@ -186,7 +196,8 @@
    "liner": "Independent online radio from London since 2011.",
    "tags": [
     "eclectic"
-   ]
+   ],
+   "language": "english"
   },
   {
    "id": "dlf",
@@ -202,7 +213,8 @@
    "liner": "Germany's national news and culture station since 1962.",
    "tags": [
     "news"
-   ]
+   ],
+   "language": "german"
   },
   {
    "id": "fip",
@@ -218,7 +230,8 @@
    "liner": "Radio France's eclectic music station, on air from Paris since 1971.",
    "tags": [
     "eclectic"
-   ]
+   ],
+   "language": "french"
   },
   {
    "id": "otr-1929",
@@ -233,7 +246,8 @@
    "otr": {
     "identifier": "amosandy1",
     "license": "Public domain (Creative Commons)"
-   }
+   },
+   "language": "english"
   },
   {
    "id": "otr-1932",
@@ -248,7 +262,8 @@
    "otr": {
     "identifier": "JackBenny1",
     "license": "Public Domain Mark 1.0"
-   }
+   },
+   "language": "english"
   },
   {
    "id": "otr-1933",
@@ -263,7 +278,8 @@
    "otr": {
     "identifier": "OTRR_LoneRanger_Singles",
     "license": "Public Domain Mark 1.0"
-   }
+   },
+   "language": "english"
   },
   {
    "id": "otr-1937",
@@ -278,7 +294,8 @@
    "otr": {
     "identifier": "the-shadow-radio-show-1937-1954-old-time-radio-all-available-episodes",
     "license": "Public Domain Mark 1.0"
-   }
+   },
+   "language": "english"
   },
   {
    "id": "otr-1938",
@@ -293,7 +310,8 @@
    "otr": {
     "identifier": "TheGreenHornet",
     "license": "CC0 1.0"
-   }
+   },
+   "language": "english"
   },
   {
    "id": "otr-1939",
@@ -308,7 +326,8 @@
    "otr": {
     "identifier": "sherlockholmes_otr",
     "license": "Public Domain Mark 1.0"
-   }
+   },
+   "language": "english"
   },
   {
    "id": "otr-1940",
@@ -323,7 +342,8 @@
    "otr": {
     "identifier": "FibberMcGeeandMolly1940",
     "license": "Public domain (Creative Commons)"
-   }
+   },
+   "language": "english"
   },
   {
    "id": "otr-1941",
@@ -338,7 +358,8 @@
    "otr": {
     "identifier": "FibberMcGeeandMolly1941",
     "license": "Public domain (Creative Commons)"
-   }
+   },
+   "language": "english"
   },
   {
    "id": "otr-1942",
@@ -353,7 +374,8 @@
    "otr": {
     "identifier": "SUSPENSE",
     "license": "Public domain (Creative Commons)"
-   }
+   },
+   "language": "english"
   },
   {
    "id": "otr-1944",
@@ -368,7 +390,8 @@
    "otr": {
     "identifier": "Complete_Broadcast_Day_D-Day",
     "license": "Public domain (Creative Commons)"
-   }
+   },
+   "language": "english"
   },
   {
    "id": "otr-1946",
@@ -383,7 +406,8 @@
    "otr": {
     "identifier": "PatNovakForHire",
     "license": "Public domain (Creative Commons)"
-   }
+   },
+   "language": "english"
   },
   {
    "id": "otr-1948",
@@ -398,7 +422,8 @@
    "otr": {
     "identifier": "Box_13",
     "license": "Public domain (Creative Commons)"
-   }
+   },
+   "language": "english"
   },
   {
    "id": "otr-1949",
@@ -413,7 +438,8 @@
    "otr": {
     "identifier": "Dragnet_OTR",
     "license": "Public domain (Creative Commons)"
-   }
+   },
+   "language": "english"
   },
   {
    "id": "otr-1950",
@@ -428,7 +454,8 @@
    "otr": {
     "identifier": "Dimension-X",
     "license": "Public domain (Creative Commons)"
-   }
+   },
+   "language": "english"
   },
   {
    "id": "otr-1951",
@@ -443,7 +470,8 @@
    "otr": {
     "identifier": "TheLivesOfHarryLime",
     "license": "Public domain (Creative Commons)"
-   }
+   },
+   "language": "english"
   },
   {
    "id": "otr-1952",
@@ -458,7 +486,8 @@
    "otr": {
     "identifier": "gunsmoke_radio_show_1952-1961_improved_audio_no_commercials",
     "license": "Public Domain Mark 1.0"
-   }
+   },
+   "language": "english"
   },
   {
    "id": "otr-1956",
@@ -473,7 +502,8 @@
    "otr": {
     "identifier": "XMinus1B",
     "license": "Public domain (Creative Commons)"
-   }
+   },
+   "language": "english"
   },
   {
    "id": "otr-1958",
@@ -488,7 +518,8 @@
    "otr": {
     "identifier": "FrontierGentleman-All41Episodes",
     "license": "Public Domain Mark 1.0"
-   }
+   },
+   "language": "english"
   }
  ]
 }
