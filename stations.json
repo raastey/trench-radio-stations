@@ -1,0 +1,494 @@
+{
+ "version": 2,
+ "presets": [
+  "bbc-ws",
+  "fip",
+  "kexp",
+  "nts1",
+  "soma-secret-agent",
+  "wfmu"
+ ],
+ "stations": [
+  {
+   "id": "bbc-ws",
+   "name": "BBC World Service",
+   "city": "London",
+   "country": "GB",
+   "lat": 51.5,
+   "lon": -0.1,
+   "band": "sw",
+   "freq": 9.41,
+   "curated": true,
+   "rbUUID": "598c4d0e-6b06-43fb-bff4-717c591213a9",
+   "liner": "Broadcasting from London since 1932, when it began as the Empire Service. Newshour runs live on weekday evenings.",
+   "tags": [
+    "news",
+    "talk"
+   ]
+  },
+  {
+   "id": "rte1",
+   "name": "RTÉ Radio 1",
+   "city": "Dublin",
+   "country": "IE",
+   "lat": 53.35,
+   "lon": -6.26,
+   "band": "sw",
+   "freq": 8.95,
+   "curated": true,
+   "rbUUID": "1692f135-2fca-4d2d-a315-5019bc890635",
+   "liner": "Ireland's national broadcaster. Radio 1 traces its line to 2RN, on air since 1926.",
+   "tags": [
+    "news",
+    "talk"
+   ]
+  },
+  {
+   "id": "rfi",
+   "name": "RFI Monde",
+   "city": "Paris",
+   "country": "FR",
+   "lat": 48.85,
+   "lon": 2.35,
+   "band": "sw",
+   "freq": 10.6,
+   "curated": true,
+   "rbUUID": "170e9f59-e70d-11e9-a96c-52543be04c81",
+   "liner": "Radio France Internationale, on shortwave since 1931, when it began as the Poste Colonial.",
+   "tags": [
+    "news"
+   ]
+  },
+  {
+   "id": "dw",
+   "name": "DW News",
+   "city": "Bonn",
+   "country": "DE",
+   "lat": 50.73,
+   "lon": 7.1,
+   "band": "sw",
+   "freq": 11.115,
+   "curated": true,
+   "rbUUID": "66964378-eb32-4758-89ca-3abda45bcbd5",
+   "liner": "Deutsche Welle, Germany's international broadcaster, founded in 1953.",
+   "tags": [
+    "news"
+   ]
+  },
+  {
+   "id": "nrk",
+   "name": "NRK P1",
+   "city": "Oslo",
+   "country": "NO",
+   "lat": 59.9,
+   "lon": 10.75,
+   "band": "sw",
+   "freq": 11.51,
+   "curated": true,
+   "rbUUID": "ebc6ab9f-57be-4ee8-9209-327ee71c7a86",
+   "liner": "Norway's public broadcaster. NRK has been on air since 1933.",
+   "tags": [
+    "talk"
+   ]
+  },
+  {
+   "id": "rai3",
+   "name": "RAI Radio 3",
+   "city": "Roma",
+   "country": "IT",
+   "lat": 41.9,
+   "lon": 12.5,
+   "band": "sw",
+   "freq": 13.0,
+   "curated": true,
+   "rbUUID": "9608eb3e-0601-11e8-ae97-52543be04c81",
+   "liner": "Italy's cultural channel: concerts, opera and talk, on air since 1950.",
+   "tags": [
+    "classical"
+   ]
+  },
+  {
+   "id": "soma-secret-agent",
+   "name": "SomaFM Secret Agent",
+   "city": "San Francisco",
+   "country": "US",
+   "lat": 37.8,
+   "lon": -122.4,
+   "band": "sw",
+   "freq": 5.6,
+   "curated": true,
+   "rbUUID": "960c7c81-0601-11e8-ae97-52543be04c81",
+   "liner": "Listener-supported internet radio from San Francisco since 2000.",
+   "tags": [
+    "lounge"
+   ]
+  },
+  {
+   "id": "wnyc",
+   "name": "WNYC",
+   "city": "New York",
+   "country": "US",
+   "lat": 40.71,
+   "lon": -74.0,
+   "band": "am",
+   "freq": 820,
+   "curated": true,
+   "rbUUID": "66715d64-57e9-11ea-be63-52543be04c81",
+   "liner": "New York Public Radio. WNYC first broadcast in 1924.",
+   "tags": [
+    "news",
+    "talk"
+   ]
+  },
+  {
+   "id": "kexp",
+   "name": "KEXP",
+   "city": "Seattle",
+   "country": "US",
+   "lat": 47.6,
+   "lon": -122.3,
+   "band": "fm",
+   "freq": 90.3,
+   "curated": true,
+   "rbUUID": "42c0308b-908d-4243-92e5-05d658ecb781",
+   "liner": "Listener-supported, Seattle, on air since 1972.",
+   "tags": [
+    "indie"
+   ]
+  },
+  {
+   "id": "wfmu",
+   "name": "WFMU",
+   "city": "Jersey City",
+   "country": "US",
+   "lat": 40.72,
+   "lon": -74.05,
+   "band": "fm",
+   "freq": 91.1,
+   "curated": true,
+   "rbUUID": "61d90ec1-615e-489b-a175-110076596a3b",
+   "liner": "Freeform radio, listener-supported, on air since 1958.",
+   "tags": [
+    "freeform"
+   ]
+  },
+  {
+   "id": "nts1",
+   "name": "NTS 1",
+   "city": "London",
+   "country": "GB",
+   "lat": 51.5,
+   "lon": -0.1,
+   "band": "fm",
+   "freq": 98.7,
+   "curated": true,
+   "rbUUID": "961e6cac-0601-11e8-ae97-52543be04c81",
+   "liner": "Independent online radio from London since 2011.",
+   "tags": [
+    "eclectic"
+   ]
+  },
+  {
+   "id": "dlf",
+   "name": "Deutschlandfunk",
+   "city": "Köln",
+   "country": "DE",
+   "lat": 50.94,
+   "lon": 6.96,
+   "band": "fm",
+   "freq": 102.5,
+   "curated": true,
+   "rbUUID": "1c3e8be2-5b14-4933-bad3-87cbc227cba4",
+   "liner": "Germany's national news and culture station since 1962.",
+   "tags": [
+    "news"
+   ]
+  },
+  {
+   "id": "fip",
+   "name": "FIP",
+   "city": "Paris",
+   "country": "FR",
+   "lat": 48.85,
+   "lon": 2.35,
+   "band": "fm",
+   "freq": 105.1,
+   "curated": true,
+   "rbUUID": "a349e1e9-2844-443a-973b-09a02fa12c8e",
+   "liner": "Radio France's eclectic music station, on air from Paris since 1971.",
+   "tags": [
+    "eclectic"
+   ]
+  },
+  {
+   "id": "otr-1929",
+   "name": "Amos 'n' Andy",
+   "city": "Archive",
+   "band": "otr",
+   "freq": 1929,
+   "curated": true,
+   "tags": [
+    "otr"
+   ],
+   "otr": {
+    "identifier": "amosandy1",
+    "license": "Public domain (Creative Commons)"
+   }
+  },
+  {
+   "id": "otr-1932",
+   "name": "The Jack Benny Program",
+   "city": "Archive",
+   "band": "otr",
+   "freq": 1932,
+   "curated": true,
+   "tags": [
+    "otr"
+   ],
+   "otr": {
+    "identifier": "JackBenny1",
+    "license": "Public Domain Mark 1.0"
+   }
+  },
+  {
+   "id": "otr-1933",
+   "name": "The Lone Ranger",
+   "city": "Archive",
+   "band": "otr",
+   "freq": 1933,
+   "curated": true,
+   "tags": [
+    "otr"
+   ],
+   "otr": {
+    "identifier": "OTRR_LoneRanger_Singles",
+    "license": "Public Domain Mark 1.0"
+   }
+  },
+  {
+   "id": "otr-1937",
+   "name": "The Shadow",
+   "city": "Archive",
+   "band": "otr",
+   "freq": 1937,
+   "curated": true,
+   "tags": [
+    "otr"
+   ],
+   "otr": {
+    "identifier": "the-shadow-radio-show-1937-1954-old-time-radio-all-available-episodes",
+    "license": "Public Domain Mark 1.0"
+   }
+  },
+  {
+   "id": "otr-1938",
+   "name": "The Green Hornet",
+   "city": "Archive",
+   "band": "otr",
+   "freq": 1938,
+   "curated": true,
+   "tags": [
+    "otr"
+   ],
+   "otr": {
+    "identifier": "TheGreenHornet",
+    "license": "CC0 1.0"
+   }
+  },
+  {
+   "id": "otr-1939",
+   "name": "Sherlock Holmes",
+   "city": "Archive",
+   "band": "otr",
+   "freq": 1939,
+   "curated": true,
+   "tags": [
+    "otr"
+   ],
+   "otr": {
+    "identifier": "sherlockholmes_otr",
+    "license": "Public Domain Mark 1.0"
+   }
+  },
+  {
+   "id": "otr-1940",
+   "name": "Fibber McGee and Molly",
+   "city": "Archive",
+   "band": "otr",
+   "freq": 1940,
+   "curated": true,
+   "tags": [
+    "otr"
+   ],
+   "otr": {
+    "identifier": "FibberMcGeeandMolly1940",
+    "license": "Public domain (Creative Commons)"
+   }
+  },
+  {
+   "id": "otr-1941",
+   "name": "Fibber McGee and Molly",
+   "city": "Archive",
+   "band": "otr",
+   "freq": 1941,
+   "curated": true,
+   "tags": [
+    "otr"
+   ],
+   "otr": {
+    "identifier": "FibberMcGeeandMolly1941",
+    "license": "Public domain (Creative Commons)"
+   }
+  },
+  {
+   "id": "otr-1942",
+   "name": "Suspense",
+   "city": "Archive",
+   "band": "otr",
+   "freq": 1942,
+   "curated": true,
+   "tags": [
+    "otr"
+   ],
+   "otr": {
+    "identifier": "SUSPENSE",
+    "license": "Public domain (Creative Commons)"
+   }
+  },
+  {
+   "id": "otr-1944",
+   "name": "D-Day: Complete Broadcast Day",
+   "city": "Archive",
+   "band": "otr",
+   "freq": 1944,
+   "curated": true,
+   "tags": [
+    "otr"
+   ],
+   "otr": {
+    "identifier": "Complete_Broadcast_Day_D-Day",
+    "license": "Public domain (Creative Commons)"
+   }
+  },
+  {
+   "id": "otr-1946",
+   "name": "Pat Novak for Hire",
+   "city": "Archive",
+   "band": "otr",
+   "freq": 1946,
+   "curated": true,
+   "tags": [
+    "otr"
+   ],
+   "otr": {
+    "identifier": "PatNovakForHire",
+    "license": "Public domain (Creative Commons)"
+   }
+  },
+  {
+   "id": "otr-1948",
+   "name": "Box 13",
+   "city": "Archive",
+   "band": "otr",
+   "freq": 1948,
+   "curated": true,
+   "tags": [
+    "otr"
+   ],
+   "otr": {
+    "identifier": "Box_13",
+    "license": "Public domain (Creative Commons)"
+   }
+  },
+  {
+   "id": "otr-1949",
+   "name": "Dragnet",
+   "city": "Archive",
+   "band": "otr",
+   "freq": 1949,
+   "curated": true,
+   "tags": [
+    "otr"
+   ],
+   "otr": {
+    "identifier": "Dragnet_OTR",
+    "license": "Public domain (Creative Commons)"
+   }
+  },
+  {
+   "id": "otr-1950",
+   "name": "Dimension X",
+   "city": "Archive",
+   "band": "otr",
+   "freq": 1950,
+   "curated": true,
+   "tags": [
+    "otr"
+   ],
+   "otr": {
+    "identifier": "Dimension-X",
+    "license": "Public domain (Creative Commons)"
+   }
+  },
+  {
+   "id": "otr-1951",
+   "name": "The Lives of Harry Lime",
+   "city": "Archive",
+   "band": "otr",
+   "freq": 1951,
+   "curated": true,
+   "tags": [
+    "otr"
+   ],
+   "otr": {
+    "identifier": "TheLivesOfHarryLime",
+    "license": "Public domain (Creative Commons)"
+   }
+  },
+  {
+   "id": "otr-1952",
+   "name": "Gunsmoke",
+   "city": "Archive",
+   "band": "otr",
+   "freq": 1952,
+   "curated": true,
+   "tags": [
+    "otr"
+   ],
+   "otr": {
+    "identifier": "gunsmoke_radio_show_1952-1961_improved_audio_no_commercials",
+    "license": "Public Domain Mark 1.0"
+   }
+  },
+  {
+   "id": "otr-1956",
+   "name": "X Minus One",
+   "city": "Archive",
+   "band": "otr",
+   "freq": 1956,
+   "curated": true,
+   "tags": [
+    "otr"
+   ],
+   "otr": {
+    "identifier": "XMinus1B",
+    "license": "Public domain (Creative Commons)"
+   }
+  },
+  {
+   "id": "otr-1958",
+   "name": "Frontier Gentleman",
+   "city": "Archive",
+   "band": "otr",
+   "freq": 1958,
+   "curated": true,
+   "tags": [
+    "otr"
+   ],
+   "otr": {
+    "identifier": "FrontierGentleman-All41Episodes",
+    "license": "Public Domain Mark 1.0"
+   }
+  }
+ ]
+}
