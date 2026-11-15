@@ -1,5 +1,5 @@
 {
- "version": 2,
+ "version": 3,
  "presets": [
   "bbc-ws",
   "fip",
@@ -115,7 +115,7 @@
    "lat": 37.8,
    "lon": -122.4,
    "band": "sw",
-   "freq": 5.6,
+   "freq": 5.845,
    "curated": true,
    "rbUUID": "960c7c81-0601-11e8-ae97-52543be04c81",
    "liner": "Listener-supported internet radio from San Francisco since 2000.",
